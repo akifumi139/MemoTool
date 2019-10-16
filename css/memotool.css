@@ -1,0 +1,72 @@
+canvas {
+  border: 1px solid black;
+  margin-top: -5px;
+}
+
+.color_button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-width: 5px;
+  border-style: solid;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  outline: 0;
+}
+
+#black {
+  border-color: yellowgreen;
+  background: black;
+}
+
+#red {
+  background: red;
+}
+
+#blue {
+  background: blue;
+}
+
+#canvas {
+  position: absolute;
+  z-index: 1;
+}
+
+#background {
+  position: absolute;
+  z-index: 0;
+}
+
+#clear {
+  position: absolute;
+  z-index: 2;
+}
+
+#palet {
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block
+}
+
+#option {
+  margin-left: 250px;
+  display: inline-block
+}
+
+.btn-form {
+  padding: 8px 10px 5px 10px;
+  border-radius: 10px 10px 0px 0px;
+  color: white;
+  background: dodgerblue;
+  margin: 4px;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.btn-form input {
+  display: none;
+}
+
+#option button {
+  border-style: none;
+}

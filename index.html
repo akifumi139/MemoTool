@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>MemoTool</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div id="control">
+        <div id="palet">
+            <button class="color_button" id="black" onclick="changeColor(0)"></button>
+            <button class="color_button" id="red" onclick="changeColor(1)"></button>
+            <button class="color_button" id="blue" onclick="changeColor(2)"></button>
+        </div>
+        <div id="option">
+            <label class="btn-form">
+                Upload<input type="file" id="inport" />
+                <button id="clear">×</button>
+            </label>
+            <button class="btn-form" id="export">Export</button>
+            <button class="btn-form" id="delete">Delete</button>
+        </div>
+    </div>
+    <div id="canvas-wrapper">
+        <canvas id="canvas" width="700px" height="525px"></canvas>
+        <canvas id="background" width="700px" height="525px"></canvas>
+
+    </div>
+</body>
+<link rel="stylesheet" type="text/css" href="css/memotool.css">
+<script src="js/main.js"></script>
+
+</html>
